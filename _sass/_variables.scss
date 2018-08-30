@@ -31,7 +31,7 @@ $leaf: #66AB8C;
 $mono-color: $salmon; //#8476ad;                // main theme color(header, links, footer icons, buttons, post-title)
 $hl-color: $buttermilk;//$darkGray;              // header link color (author name and posted on date) for blog post meta
 $navbar-hover-color:$leaf;        // navbar hover color (site name and navbar links hover color)
-$link-color: $salmon;        // normal hyperlink color other than the ones above.
+$link-color: $rain;        // normal hyperlink color other than the ones above.
 
 
 // Heading colors
@@ -51,7 +51,6 @@ $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $raleway: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
-$hankyoreh: url("../assets/fonts/Hankyoreh_Font.TTF");
 
 // Mobile breakpoints
 @mixin mobile {
