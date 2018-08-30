@@ -14,15 +14,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Your awesome title
-email: your-email@example.com
+name: Aree Oh (Aria)
+email: christina.ohari@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Traveling software engineer likes to talk
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
-github_username:  jekyll
+github_username:  aria-grande
 
 # Build settings
 markdown: kramdown
@@ -30,14 +29,30 @@ theme: minima
 plugins:
   - jekyll-feed
 
+permalink: /:title/
+
+footer-links:
+  dribbble:
+  email: christina.ohari@gmail.com
+  facebook: rorari93
+  flickr:
+  github: aria-grande
+  instagram:
+  linkedin: aree-oh
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
