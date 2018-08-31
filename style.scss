@@ -218,7 +218,7 @@ nav {
 
   @include mobile {
     float: none;
-    margin-top: 15px;
+    // margin-top: 15px;
     display: block;
     font-size: 16px;
   }
@@ -334,7 +334,7 @@ footer {
     margin-left:0px;
   }
 }
-.svg-icon a {
+.svg-icon a:not(:last-child) {
   margin-right:15px;
 }
 
@@ -357,6 +357,16 @@ footer {
   left: 0;
   border-bottom: 0px;
   padding: 5px 20px;
+  @include mobile {
+    #profile-navbar {
+      top: 10px !important;
+      position: relative;
+      margin: 0 auto;
+    }
+    #header-title, .site-description {
+      display: none;
+    }
+  }
 }
 
 .sticky + #main {
@@ -371,7 +381,6 @@ footer {
 }
 
 #profile-navbar {
-  // display: none;
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -382,9 +391,14 @@ footer {
   background-size: cover;
 }
 .move-profile {
-  // display: inline-block !important;
   top: 10px !important;
+  @include mobile {
+    #profile-navbar {
+    }
+
+  }
 }
+
 #header-title {
   transition: all .3s linear;
 }
