@@ -22,7 +22,7 @@ Find more information in [LinkedIn](https://www.linkedin.com/in/aree-oh)
 - Built deploy process for a brand-site of my company using DC/OS.
 - React.js, Ruby on Rails, Docker, DC/OS, Marathon, Jenkins.
 
-### What developed
+### What is developed
 - [Kakao T](http://kakaomobility.com/kakaot/index.html)
 - [Kakao T Parking](https://parking.kakao.com)
 
@@ -31,7 +31,7 @@ Find more information in [LinkedIn](https://www.linkedin.com/in/aree-oh)
 - Built web contents exposed in search results such as weathers, path-finder, and etc.
 - Used Ruby on Rails, Java with Spring framework, React.js, and freemarker.
 
-### What developed
+### What is developed
 - [Weather Collection, Daum](https://search.daum.net/search?w=tot&DA=JU5&q=%EC%98%A4%EB%8A%98+%EB%82%A0%EC%94%A8)
 - [Path Finder Collection, Daum](https://m.search.daum.net/search?w=tot&DA=JU5&q=%EA%B8%B8%EC%B0%BE%EA%B8%B0)
 - [Local Number Collection, Daum](https://search.daum.net/search?nil_suggest=btn&nil_ch=&rtupcoll=&w=tot&m=&f=&lpp=&DA=SBC&sug=&sq=&o=&sugo=&q=%EC%A7%80%EC%97%AD%EB%B2%88%ED%98%B8)
