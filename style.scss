@@ -405,3 +405,8 @@ footer {
 .move-title {
   margin-left: 70px;
 }
+
+@font-face {
+  font-family: $hankyoreh;
+  src: url(asset-path("fonts/Hankyoreh_Font.TTF"));
+}
