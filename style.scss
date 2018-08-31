@@ -8,7 +8,6 @@
 @import "reset";
 @import "variables";
 
-
 /**************/
 /* BASE RULES */
 /**************/
@@ -19,7 +18,7 @@ html {
 
 body {
   background: $white;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $hankyoreh;
   color: $darkGray;
 }
 
@@ -31,7 +30,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $hankyoreh;
   color: $darkerGray;
   font-weight: bold;
 
@@ -195,7 +194,7 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $hankyoreh;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -213,13 +212,13 @@ img {
 
 nav {
   float: right;
-  margin-top: 23px; 
-  font-family: $helveticaNeue;
+  margin-top: 23px;
+  font-family: $hankyoreh;
   font-size: 18px;
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-top: 15px;
     display: block;
     font-size: 16px;
   }
@@ -230,7 +229,7 @@ nav {
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
-    
+
     &:hover, &:active {
       color: darken($navbar-hover-color,20);
     }
@@ -266,6 +265,12 @@ nav {
     font-style: italic;
   }
 
+  @include mobile {
+    padding:10px;
+    h1 {
+      margin-top: 0px;
+    }
+  }
   .comments {
     margin-top: 10px;
   }
@@ -290,3 +295,45 @@ footer {
 
 @import "highlights";
 @import "jekyll-mono";
+
+
+/***************/
+/* ARIA RULES */
+/**************/
+
+.posts .category-post {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+}
+.posts .category-name {
+  padding: 0px 20px;
+  background-color: $grape;
+  border-radius: 10px;
+}
+.posts .category-name h1 {
+  padding: 5px;
+  font-size: 18pt;
+  color: $white;
+  text-align: center;
+  a {
+    color: inherit;
+  }
+}
+.back-button {
+  margin-left: 15px;
+  border-color: $back-button-color;
+  &:hover{
+    color: $white !important;
+    background-color: $back-button-color;
+    border-color: $back-button-color;
+    opacity:0.8;
+  }
+  @include mobile {
+    margin-top: 20px;
+    margin-left:0px;
+  }
+}
+.svg-icon a {
+  margin-right:15px;
+}

@@ -3,16 +3,21 @@ layout: default
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+  {% assign grouped_posts = site.posts | group_by:"category" %}
+  {% for posts in grouped_posts %}
+    <div class="category-post">
+      <div class="category-name">
+        <h1> {{ posts.name }} </h1>
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
-    </article>
+      {% for post in posts.items %}
+        <article class="post">
+          <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+          <div class="entry">
+            {{ post.excerpt }}
+          </div>
+          <a href="{{ site.baseurl }}{{ post.url }}" class="button button-primary">Read More</a>
+        </article>
+      {% endfor %}
+    </div>
   {% endfor %}
 </div>
