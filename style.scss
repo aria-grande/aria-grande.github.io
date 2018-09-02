@@ -406,6 +406,36 @@ footer {
   margin-left: 70px;
 }
 
+/*** about ***/
+.parallax {
+  width: 100%;
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  +h2 {
+    margin-top: 250px;
+  }
+}
+#kakaot-img {
+  background-image: url("/images/kakaot.png");
+}
+
+#kakao-img {
+  background-image: url("/images/kakao.png");
+}
+
+#granada-img {
+  height: 250px;
+  background-image: url("/images/granada-alhambra.jpg");
+  +h2 {
+    margin-top: 300px;
+  }
+
+}
 @font-face {
   font-family: $hankyoreh;
   src: url(asset-path("fonts/Hankyoreh_Font.TTF"));
