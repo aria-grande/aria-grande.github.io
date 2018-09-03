@@ -396,11 +396,6 @@ footer {
 }
 .move-profile {
   top: 10px !important;
-  @include mobile {
-    #profile-navbar {
-    }
-
-  }
 }
 
 #header-title {
@@ -412,7 +407,6 @@ footer {
 
 /*** about ***/
 .parallax {
-  overflow:hidden;
   width: 100%;
   height: 200px;
   background-attachment: fixed;
@@ -423,6 +417,9 @@ footer {
   left: 0;
   +h2 {
     margin-top: 250px;
+  }
+  @include mobile {
+    background-attachment: local;
   }
 }
 #kakaot-img {
