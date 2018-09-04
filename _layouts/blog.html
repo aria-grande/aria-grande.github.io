@@ -44,7 +44,16 @@
       </div>
     </div>
 
+    <div id="to-top-btn">
+      <button class="top-btn"></button>
+    </div>
 
     {% include analytics.html %}
   </body>
+  <script type="text/javascript">
+    var topBtn = document.getElementById("to-top-btn");
+    topBtn.onclick = function() {
+      window.scrollTo(0, 0);
+    };
+  </script>
 </html>
