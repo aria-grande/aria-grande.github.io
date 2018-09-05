@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[if kakao] 딥러닝을 활용한 뉴스 메타 태깅"
+title:  "[if-kakao] 딥러닝을 활용한 뉴스 메타 태깅"
 date:   2018-09-04 16:00:00 +0900
 author: Aria
-category: if kakao
+category: if-kakao
 ---
 
 ## 배경

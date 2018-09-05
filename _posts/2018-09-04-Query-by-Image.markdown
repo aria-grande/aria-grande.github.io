@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[if kakao] Query by Image"
+title:  "[if-kakao] Query by Image"
 date:   2018-09-04 12:00:00 +0900
 author: Aria
-category: if kakao
+category: if-kakao
 ---
 
 ## 텍스트로 검색을 하면 안되나?

@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[if kakao] tensorflow로 OCR 개발기"
+title:  "[if-kakao] tensorflow로 OCR 개발기"
 date:   2018-09-04 11:00:00 +0900
 author: Aria
-category: if kakao
+category: if-kakao
 ---
 
 ## 모델 개발을 위한 초석

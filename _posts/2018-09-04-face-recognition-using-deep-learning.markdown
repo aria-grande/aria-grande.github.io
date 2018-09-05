@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "[if kakao] Face Recognition with deep learning"
+title:  "[if-kakao] Face Recognition with deep learning"
 date:   2018-09-04 12:20:00 +0900
 author: Aria
-category: if kakao
+category: if-kakao
 ---
 
 ## 얼굴 인식 과정

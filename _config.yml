@@ -30,7 +30,7 @@ theme: minima
 plugins:
   - jekyll-feed
 
-permalink: /:title/
+permalink: /:categories/:title/
 
 footer-links:
   dribbble:
