@@ -19,9 +19,9 @@
 
  .post {
         a {
-         color: $mono-color;
+         color: $link-color;
          &:hover{
-           color: darken($mono-color,20);
+           color: darken($link-color,20);
          }
      }
  }

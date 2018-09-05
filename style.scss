@@ -338,10 +338,11 @@ footer {
 .back-button {
   margin-left: 15px;
   border-color: $back-button-color;
+  color :$back-button-color !important;
   &:hover{
     color: $white !important;
-    background-color: $back-button-color;
-    border-color: $back-button-color;
+    background-color: $back-button-hover-color;
+    border-color: $back-button-hover-color;
     opacity:0.8;
   }
   @include mobile {
@@ -352,8 +353,8 @@ footer {
 .svg-icon a:not(:last-child) {
   margin-right:15px;
 }
-.post a {
-  color: $post-a-color;
+.post .post-title a {
+  color: $mono-color;
 }
 
 #to-top-btn {
