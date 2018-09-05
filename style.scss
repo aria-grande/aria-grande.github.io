@@ -357,6 +357,39 @@ footer {
   color: $mono-color;
 }
 
+#related-posts {
+    width: 90%;
+    margin: 60px auto;
+    padding: 10px 30px 30px 30px;
+    border-top: 1px solid $mono-color;
+    overflow: hidden;
+    @include mobile {
+      padding: 5%;
+    }
+    .related-post {
+      width: 45%;
+      margin: 2.5%;
+      display: table;
+      min-height: 150px;
+      border: 1px solid $mono-color;
+      background-color: $mono-color;
+      float: left;
+      @include mobile {
+        width: 90%;
+      }
+      :hover {
+        background-color: darken($mono-color,10);
+      }
+      a {
+        color: $lightGray !important;
+        padding: 20px;
+        text-align: center;
+        display: table-cell;
+        vertical-align: middle;
+        word-break: break-word;
+      }
+    }
+}
 #to-top-btn {
   width: 70px;
   height: 70px;

@@ -34,6 +34,21 @@
       {{ content }}
     </div>
 
+    {% assign grouped_post = site.posts | where:"category", page.category %}
+    {% if grouped_post.size > 1 %}
+      <div id="related-posts">
+        <h2>{{ page.category }} 내 다른 글들</h2>
+
+        {% for post in grouped_post %}
+          {% if post.url != page.url %}
+          <div class="related-post">
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </div>
+          {% endif %}
+        {% endfor%}
+      </div>
+    {% endif %}
+
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">

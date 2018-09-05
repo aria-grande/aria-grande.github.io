@@ -32,6 +32,10 @@ plugins:
 
 permalink: /:categories/:title/
 
+collections:
+  posts:
+    output: true
+
 footer-links:
   dribbble:
   email: christina.ohari@gmail.com

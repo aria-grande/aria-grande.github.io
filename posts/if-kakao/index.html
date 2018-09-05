@@ -1,0 +1,10 @@
+---
+layout: page
+---
+<h1>hello world</h1>
+{{ sites.posts }}
+<h1>{{ output }}</h1>
+{% for post in docs %}
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.description }}</p>
+{% endfor %}

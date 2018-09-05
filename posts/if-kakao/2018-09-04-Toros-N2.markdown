@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "[if-kakao] Toros - N2, KNN library"
+date:   2018-09-04 15:00:00 +0900
+author: Aria
+category: if-kakao
+---
+
+## Nearest Neighbor Search
+이 글과 유사한 글을 추천하자.
+
+### 벡터모델
+- 각 아이템을 f-차원의 벡터로 표현
+- 벡터로 표현하면, 거리 계산 가능.
+- 거리가 가장 가까운 아이템을 찾으면 됨.(Euclidean distance)
+
+#### 벡터로 표현?
+- 텍스트: word2vec
+- 이미지: 학습된 네트워크에서 특정 데이터 가져오기
+
+### kNN(k-Nearest Neighbor search)
+- ex: 글 A와 유사한 것 10개 찾아줘
+- 유사 아이템(글, 사진, 유저) 찾아야 하는 것을 벡터로 표현한 뒤, 인접한 이웃을 찾아주면 끝.
+- Brute-force KNN: full search, 100만 개의 벡터만 되어도 AWS 4.x large 기준 27시간이 걸림.. 현실적으로 적용 하기 힘들다.
+
+### AkNN(Approximate KNN)
+- Brute-force KNN보다 훨씬 빠른 속도는 없을까?
+  대신 정확도롤 조금 포기하자
+- 27시간 ➔ 16분으로 시간 확 감소함.
+- 약 90%의 정확도로 100배 빠르게 찾을 수 있음.
+
+#### AkNN packages
+##### Annoy
+- Random projection + Tree
+- 장점
+  - 적은 수의 hyper parameter
+  - Read-only MMapped data structure 지원
+    - 다수의 프로세스가 모델 파일 공유 가능
+  - 사용하기 쉬움
+- 단점
+  - 속도..
+
+##### nmslib
+- 장점
+  - 속도, 정확도 우수한 HNSW 알고리즘 지원
+- 단점
+  - MMap 미지원
+  - 불편한 interface와 복잡한 설치과정
+
+## Toros N2
+- 장점
+  - HNSW 알고리즘 지원
+  - MMAP 지원
+  - 빠른 index build 속도
+  - 설치&사용 간편
+  - python, go binding
+- 단점
+  - Search 속도는 nmslib이 빠름. (빌드 속도와 trade-off 가능)
+
+### HNSW(Hierarchical Navigable Small World graphs)
+- NSW + Hierarchical
+- Layer N에서부터 0까지 traverse. 크게 점프하면서 찾을 수 있음
+
+### 성능 향상
+#### Memory prefetch
+CPU에서 사용할 데이터를 메인 메모리에서 캐시 메모리로 올려놓은 방식
