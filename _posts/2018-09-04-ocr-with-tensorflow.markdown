@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "[if-kakao] tensorflow로 OCR 개발기"
-date:   2018-09-04 11:00:00 +0900
+title:  "tensorflow로 OCR 개발기"
 author: Aria
 category: if-kakao
 ---

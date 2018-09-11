@@ -1,63 +1,37 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: ARIA is ARIA
-name: Aree Oh (ARIA)
-email: christina.ohari@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Software engineer likes talk, beer, and travel ❣️
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  aria-grande
-author: Aria
+title: Airspace
+subtitle: "A free HTML5 agency template"
+url: "https://ore-grande.github.io" # the base hostname & protocol for your site
+# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+baseurl: ""
+cover: "/assets/cover.png"
+logo: "/assets/logo.png"
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
 
-permalink: /:categories/:title/
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
 
-collections:
-  posts:
-    output: true
+# Category descriptions (for archive pages)
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
 
-footer-links:
-  dribbble:
-  email: christina.ohari@gmail.com
-  facebook: rorari93
-  flickr:
-  github: aria-grande
-  instagram:
-  linkedin: aree-oh
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter:
-  stackoverflow: # your stackoverflow profile, e.g. "users/3807565/akshay"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+sass:
+  sass_dir: _sass
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - "/vendor/"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "README.md"
+  - "LICENSE.md"
+  - "*.gemspec"
+
+keep_files:
+  - "CNAME"
+  - ".git"
+  - ".gitignore"

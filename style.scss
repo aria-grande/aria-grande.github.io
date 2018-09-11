@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $white;
+  color: $header-color;
   font-size: 16px;
 
   @include mobile {
@@ -225,7 +225,7 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $white;
+    color: $header-color;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -236,7 +236,6 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $white;
     }
   }
 }
@@ -312,13 +311,13 @@ footer {
 }
 .posts .category-name {
   padding: 0px 20px;
-  background-color: $grape;
+  background-color: $mono-color;
   border-radius: 10px;
 }
 .posts .category-name h1 {
   padding: 5px;
   font-size: 18pt;
-  color: $white;
+  color: $header-color;
   text-align: center;
   a {
     color: inherit;
@@ -424,9 +423,9 @@ footer {
 #nav {
   width: 100%;
   overflow: hiddden;
-  background-color: $grape;
+  background-color: $mono-color;
   z-index: 100;
-  -webkit-transition: all .3s ease-in;
+  -webkit-transition: all .2s ease-in;
   @include mobile {
     padding-bottom: 10px;
   }

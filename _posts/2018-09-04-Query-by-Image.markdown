@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "[if-kakao] Query by Image"
-date:   2018-09-04 12:00:00 +0900
+title:  "Query by Image"
 author: Aria
 category: if-kakao
 ---

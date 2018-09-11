@@ -1,7 +1,6 @@
 ---
 layout: post
-title:  "[if-kakao] Face Recognition with deep learning"
-date:   2018-09-04 12:20:00 +0900
+title:  "Face Recognition with deep learning"
 author: Aria
 category: if-kakao
 ---

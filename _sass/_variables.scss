@@ -26,18 +26,18 @@ $grape-pink: #FDF4C8;
 // Main theme colors
 // Some cool main theme colors(violet:#8476ad;blue:#5cacee;red:#ff7373,#ff6f69;green:#6acf64,#2ddbb3;orange:#ffa268)
 
-$mono-color: $grape;                // main theme color(header, links, footer icons, buttons, post-title)
+$mono-color: $lightGray;                // main theme color(header, links, footer icons, buttons, post-title)
 $hl-color: $eggplant;                // header link color (author name and posted on date) for blog post meta
 $navbar-hover-color: $eggplant;     // navbar hover color (site name and navbar links hover color)
 $link-color: #CDA2BA;                 // normal hyperlink color other than the ones above.
 $back-button-color: #D0C3D7;
 $back-button-hover-color: $eggplant;
 $post-a-color: $grape;
-
+$header-color: $black;
 // Heading colors
 // You can play around with these too!
-$h1-color: $grape;
-$h2-color: $grape;
+$h1-color: $black;
+$h2-color: $black;
 $h3-color: $eggplant;
 $h4-color: $eggplant;
 
