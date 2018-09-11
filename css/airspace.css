@@ -429,6 +429,14 @@ header+section {
   letter-spacing: 1px;
   word-spacing: 3px;
 }
+@media only screen and (max-device-width: 640px) {
+  #global-header {
+    background-attachment: scroll;
+  }
+  #global-header .block {
+      padding-left: 0;
+  }
+}
 /*--
 	portfolio-work Start
 --*/
@@ -732,7 +740,7 @@ header+section {
 }
 .social-icons li {
   display: inline-block;
-  margin: 0 6px;
+  margin: 6px;
 }
 .social-icons a {
   display: inline-block;

@@ -7,7 +7,7 @@ $(document).ready(function(){
 	    autoPlay: 3000,
 	});
 
-	$("#clients-logo").owlCarousel({
+	$("#country-flags").owlCarousel({
 		autoPlay: 3000,
 		items : 5,
 		itemsDesktop : [1199,5],
