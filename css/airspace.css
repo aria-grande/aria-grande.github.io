@@ -395,6 +395,7 @@ header+section {
 }
 #country-logo-section .country-logo-img {
   width: 60px;
+  margin: 0 auto;
 }
 #country-logo-section .country-logo-img img {
   width : 100%;
@@ -403,9 +404,6 @@ header+section {
 }
 #country-logo-section .country-logo-img:hover .overly {
   opacity: 1;
-}
-#country-flags .country-logo-img {
-  display: table;
 }
 #country-flags .overly {
   width: 60px;
