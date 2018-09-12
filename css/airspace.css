@@ -440,7 +440,7 @@ header+section {
     background-attachment: scroll;
   }
   #global-header .block {
-      padding-left: 0;
+    padding-left: 0;
   }
 }
 /*--
@@ -448,7 +448,9 @@ header+section {
 --*/
 .active-bg {
   background: url("/img/mattehorn.jpg") no-repeat !important;
-  background-position: 19% 10% !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-position: 20% 10% !important;
 }
 /*--
 	portfolio-work Start
@@ -665,6 +667,8 @@ header+section {
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
+  background-attachment: fixed;
+  background-position-y: -100px;
 }
 #slider-contact:before {
   content: "";
@@ -698,6 +702,13 @@ header+section {
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
+}
+@media only screen and (max-device-width: 640px) {
+  #slider-contact {
+    background-attachment: scroll;
+    background-position-y: 0px;
+    background-position-x: -20px;
+  }
 }
 /*--
 	contact-form Start
@@ -741,6 +752,7 @@ header+section {
 	wrapper-contact Start
 --*/
 .address-block li {
+  list-style: none;
   margin-bottom: 20px;
 }
 .address-block li i {
