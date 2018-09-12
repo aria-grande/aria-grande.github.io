@@ -131,10 +131,8 @@ header+section {
 	Slider Start
 --*/
 #slider {
-  background: url("/img/morocco-friends.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  background-position: 10% 0%;
   padding: 200px 0 280px 0;
   position: relative;
 }
@@ -167,6 +165,15 @@ header+section {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
+}
+.bg-index {
+  background: url("/img/morocco-friends.jpg") no-repeat;
+  background-position: 10% 0%;
+}
+@media only screen and (max-device-width: 640px) {
+  #slider {
+    background-attachment: scroll;
+  }
 }
 /*--
 	wrapper Start
@@ -698,14 +705,10 @@ header+section {
 /*--
 	slider-contact Start
 --*/
-#slider-contact {
+.contact-bg {
   background: url("/img/aria-contact.jpg") no-repeat;
-  background-size: cover;
-  padding-top: 150px;
-  padding-bottom: 107px;
-  position: relative;
-  background-attachment: fixed;
   background-position-y: -100px;
+  background-position-x: 35%;
 }
 #slider-contact:before {
   content: "";
@@ -741,10 +744,8 @@ header+section {
   word-spacing: 3px;
 }
 @media only screen and (max-device-width: 640px) {
-  #slider-contact {
-    background-attachment: scroll;
-    background-position-y: 0px;
-    background-position-x: -20px;
+  .contact-bg {
+    background-position: 50%;
   }
 }
 /*--
