@@ -27,12 +27,16 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 400;
 }
 h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 300;
+}
+h4 {
+  font-size: 20px;
+  margin-top: 20px;
 }
 p {
   font-size: 15px;
@@ -188,7 +192,7 @@ header+section {
 }
 #intro .block p {
   color: #7B7B7B;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 #intro .block img {
   padding-left: 40px;
