@@ -383,10 +383,38 @@ header+section {
   padding-bottom: 75px;
 }
 #country-logo-section .country-logo-img {
-  padding: 0px 50px;
+  width: 60px;
 }
 #country-logo-section .country-logo-img img {
-  width: 100px;
+  width : 100%;
+  margin: 0 auto;
+  display: block;
+}
+#country-logo-section .country-logo-img:hover .overly {
+  opacity: 1;
+}
+#country-flags .country-logo-img {
+  display: table;
+}
+#country-flags .overly {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+#country-flags .overly span {
+  position: absolute;
+  top: 25%;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
+  left: 0;
+  width: 100%;
 }
 /*---------------------------------------------
 					Work Start
