@@ -464,6 +464,7 @@ header+section {
   text-align: center;
 }
 #portfolio-work .block .portfolio-menu ul {
+  padding-left: 0;
   border: 1px solid #999999;
   display: inline-block;
   margin-bottom: 40px;
@@ -492,7 +493,7 @@ header+section {
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 22px;
+  top: 20px;
   margin: 0 auto;
   color: #fff;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
@@ -511,7 +512,7 @@ header+section {
   width: 20px;
   left: 0px;
   right: 0px;
-  top: 22px;
+  top: 20px;
   margin: 0 auto;
   color: #fff;
   text-shadow: 0 1px 0px rgba(0, 0, 0, 0.9);
@@ -520,6 +521,9 @@ header+section {
   -o-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
+}
+#portfolio-work .block .portfolio-contant ul {
+  padding-left: 0;
 }
 #portfolio-work .block .portfolio-contant ul li {
   float: left;
@@ -587,6 +591,9 @@ header+section {
 }
 #portfolio-work .block .mix {
   display: none;
+}
+#portfolio-contant-active {
+  margin-left: -10px;
 }
 /*--
 	wrapper-work Start
