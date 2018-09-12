@@ -27,21 +27,16 @@ h6 {
   font-family: 'Roboto', sans-serif;
 }
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 400;
 }
 h3 {
-  font-size: 28px;
+  font-size: 25px;
   font-weight: 300;
 }
 p {
   font-size: 15px;
   line-height: 28px;
-}
-ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 a,
 a:active,
@@ -62,7 +57,17 @@ a:active {
   font-style: italic;
   color: #666;
 }
+.content {
+  line-height: 200%;
+  padding: 15px;
+}
+.content ul {
+  margin-left: 10px;
+}
 @media only screen and (max-device-width: 640px) {
+  .content {
+    padding: 0;
+  }
   .row {
     margin-left: 0px;
     margin-right: 0px;
@@ -126,7 +131,7 @@ header+section {
 	Slider Start
 --*/
 #slider {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("/img/morocco-friends.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: 10% 0%;
@@ -172,7 +177,7 @@ header+section {
 #intro .block h2 {
   padding-top: 35px;
   line-height: 27px;
-  margin: 0;
+  /* margin: 0; */
 }
 #intro .block p {
   color: #7B7B7B;
@@ -390,12 +395,13 @@ header+section {
 	Slider-work Start
 --*/
 #global-header {
-  background: url("/img/night-sight.jpg") no-repeat;
+  background: url("/img/lisbon-header.jpg") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
   position: relative;
   background-attachment: fixed;
+  background-position: 40%;
 }
 #global-header:before {
   content: "";
@@ -436,6 +442,13 @@ header+section {
   #global-header .block {
       padding-left: 0;
   }
+}
+/*--
+	travel Start
+--*/
+.active-bg {
+  background: url("/img/mattehorn.jpg") no-repeat !important;
+  background-position: 19% 10% !important;
 }
 /*--
 	portfolio-work Start

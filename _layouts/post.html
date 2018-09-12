@@ -13,8 +13,10 @@ layout: page
             <div class="post-info-wrapper">
               <p class="italic">By <span class="bold">{{ page.author }}</span> on <span class="bold">{{ page.date | date: "%B %-d, %Y" }}</span></p>
             </div>
-            <hr />
-            <p>{{ content }}</p>
+            <hr/>
+            <div class="content">
+              {{ content }}
+            </div>
           </div>
         </div>
       </div>
