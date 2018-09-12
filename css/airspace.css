@@ -486,10 +486,8 @@ header+section {
 	travel Start
 --*/
 .active-bg {
-  background: url("/img/mattehorn.jpg") no-repeat !important;
-  background-size: cover !important;
-  background-attachment: fixed !important;
-  background-position: 20% 10% !important;
+  background: url("/img/mattehorn.jpg") no-repeat;
+  background-position: 20% 10%;
 }
 /*--
 	portfolio-work Start
