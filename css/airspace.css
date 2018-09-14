@@ -537,7 +537,7 @@ header+section {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-#portfolio-work .block .portfolio-menu ul li:hover:before {
+/* #portfolio-work .block .portfolio-menu ul li:hover:before {
   content: "\f0d7";
   position: absolute;
   font-family: "Font Awesome 5 Free";
@@ -556,6 +556,9 @@ header+section {
   -ms-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
+@media only screen and (max-device-width: 640px) {
+  #portfoli-work .block .portfolio-menu ul li
+} */
 #portfolio-work .block .portfolio-contant ul {
   padding-left: 0;
 }
