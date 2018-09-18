@@ -26,3 +26,17 @@ layout: page
 <p class="center-text" style="padding: 30px;">
   <a href="{{ site.baseurl }}/blog">Back to blog</a>
 </p>
+<script>
+  var progressBar = document.getElementById("progressBar");
+  window.addEventListener('scroll', function() {
+    var totalHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var rate = window.scrollY / totalHeight;
+
+    progressBar.setAttribute("value", rate * 100);
+    if(rate == 0) {
+      progressBar.classList.add("hide");
+    } else {
+      progressBar.classList.remove("hide");
+    }
+});
+</script>

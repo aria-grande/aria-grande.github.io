@@ -18,6 +18,9 @@ body {
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+::-webkit-scrollbar {
+  display: none;
+}
 h1,
 h2,
 h3,
@@ -119,6 +122,34 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 header+section {
   margin-top: 90px;
+}
+#progressBar {
+  position: absolute;
+  right: 0;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  border: none;
+  color: #3eb0ef;
+  background-color: white;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+progress {
+  color: lightblue;
+}
+
+progress::-moz-progress-bar {
+  background: #3eb0ef;
+}
+
+progress::-webkit-progress-value {
+  background: #3eb0ef;
+}
+
+progress::-webkit-progress-bar {
+  background: transparent;
 }
 @media only screen and (max-device-width: 640px) {
   header {
