@@ -10,30 +10,16 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
-plugins:
-  - jekyll-archives
-
-jekyll-archives:
-  enabled: []
-  layout: 'archive'
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    day: '/:year/:month/:day/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'
-
-
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
-# descriptions:
-#   - cat: jekyll
-#     desc: "Posts describing Jekyll setup techniques."
-#
-#   - cat: dummy
-#     desc: "Just some placeholder posts, lorem ipsum and the rest."
+descriptions:
+  - cat: jekyll
+    desc: "Posts describing Jekyll setup techniques."
+
+  - cat: dummy
+    desc: "Just some placeholder posts, lorem ipsum and the rest."
 
 exclude:
   - "/vendor/"

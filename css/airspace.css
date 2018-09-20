@@ -890,7 +890,7 @@ progress::-webkit-progress-bar {
   content: "#";
   display: inline;
   margin-right: 5px;
-  
+
 }
 .post .content h2::before {
   color: #ddd;
