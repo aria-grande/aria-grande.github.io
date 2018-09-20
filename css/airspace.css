@@ -885,7 +885,30 @@ progress::-webkit-progress-bar {
   display: inline-block;
   padding: 40px 0px;
 }
+.post .content h1::before {
+  color: #ddd;
+  content: "#";
+  display: inline;
+  margin-right: 5px;
+  
+}
+.post .content h2::before {
+  color: #ddd;
+  content: "##";
+  display: inline;
+  margin-right: 5px;
 
+}
+@media only screen and (max-device-width: 640px) {
+  .post .content h1::before {
+    position: unset;
+    content: "";
+  }
+  .post .content h2::before {
+    position: unset;
+    content: "";
+  }
+}
 /*---------------------------------------------
 					Contact Close
 -----------------------------------------------*/
