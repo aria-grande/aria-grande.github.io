@@ -32,3 +32,9 @@
 .post-area a:hover {
   color: #0D0017;
 }
+.post-area .post-category {
+  display: block;
+  font-weight: 100;
+  color: gray;
+  text-transform: uppercase;
+}
