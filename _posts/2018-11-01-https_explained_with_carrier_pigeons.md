@@ -5,8 +5,6 @@ author: Aria
 category: "Network"
 ---
 
-# 배달하는 비둘기로 설명하는 HTTPS
-
 ![비둘기](https://cdn-images-1.medium.com/max/1600/1*vHF6NNdZX9ziiW_uRYzvAA.png)
 
 암호화(Cryptography)는 이해하기 어려운 주제일 수 있다. 수학적인 증명들로 가득 차있다. 
