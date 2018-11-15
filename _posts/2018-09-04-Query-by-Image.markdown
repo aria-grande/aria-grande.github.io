@@ -3,6 +3,7 @@ layout: post
 title:  "Query by Image"
 author: Aria
 category: if-kakao
+comments: true
 ---
 
 # 텍스트로 검색을 하면 안되나?

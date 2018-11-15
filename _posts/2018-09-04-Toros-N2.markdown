@@ -3,6 +3,7 @@ layout: post
 title:  "Toros - N2, KNN library"
 author: Aria
 category: if-kakao
+comments: true
 ---
 
 # Nearest Neighbor Search

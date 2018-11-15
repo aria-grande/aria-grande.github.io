@@ -3,6 +3,7 @@ layout: post
 title:  "Reading AI: From the Bottom to the Learning of a Foreign Lang"
 author: Aria
 category: "Deview 2018"
+comments: true
 ---
 
 [발표자료](https://www.slideshare.net/deview/111-ai)

@@ -3,6 +3,7 @@ layout: post
 title:  "Learn how Material Design makes it easier and faster to build apps without compromising quality"
 author: Aria
 category: "Deview 2018"
+comments: true
 ---
 
 [발표자료](https://www.slideshare.net/deview/142-learn-how-material-design-makes-it-easier-and-faster-to-build-apps-without-compromising-quality)

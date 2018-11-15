@@ -3,6 +3,7 @@ layout: post
 title:  "Face Recognition with deep learning"
 author: Aria
 category: if-kakao
+comments: true
 ---
 
 # 얼굴 인식 과정

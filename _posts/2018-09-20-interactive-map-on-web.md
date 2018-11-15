@@ -3,6 +3,7 @@ layout: post
 title:  "SVG on Web"
 author: Aria
 category: web
+comments: true
 ---
 
 # [SVG(Scalable Vector Graphics)](https://ko.wikipedia.org/wiki/%EC%8A%A4%EC%BC%80%EC%9D%BC%EB%9F%AC%EB%B8%94_%EB%B2%A1%ED%84%B0_%EA%B7%B8%EB%9E%98%ED%94%BD%EC%8A%A4)

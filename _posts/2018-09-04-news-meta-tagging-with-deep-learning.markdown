@@ -3,6 +3,7 @@ layout: post
 title:  "딥러닝을 활용한 뉴스 메타 태깅"
 author: Aria
 category: if-kakao
+comments: true
 ---
 
 # 배경

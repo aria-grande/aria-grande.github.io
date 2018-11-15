@@ -3,6 +3,7 @@ layout: post
 title:  "Javascript 배틀그라운드로부터 살아남기"
 author: Aria
 category: "Deview 2018"
+comments: true
 ---
 [발표자료](https://www.slideshare.net/deview/123javascript)
 

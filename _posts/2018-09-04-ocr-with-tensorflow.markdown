@@ -3,6 +3,7 @@ layout: post
 title:  "tensorflow로 OCR 개발기"
 author: Aria
 category: if-kakao
+comments: true
 ---
 
 # 모델 개발을 위한 초석

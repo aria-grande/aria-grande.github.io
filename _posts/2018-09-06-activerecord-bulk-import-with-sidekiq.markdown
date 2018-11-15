@@ -3,6 +3,7 @@ layout: post
 title:  Activerecord-import with Sidekiq
 author: Aria
 category: "Ruby on Rails"
+comments: true
 ---
 
 background에서 ActiveRecord 인스턴스를 대량 생성하기 위해 [activerecord-import](https://github.com/zdennis/activerecord-import) gem과 [sidekiq](https://github.com/mperham/sidekiq)을 사용하고 있다.

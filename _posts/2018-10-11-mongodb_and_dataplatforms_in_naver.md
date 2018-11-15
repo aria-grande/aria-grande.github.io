@@ -3,6 +3,7 @@ layout: post
 title:  "네이버에서 사용되는 여러가지 Data Platform, 그리고 MongoDB"
 author: Aria
 category: "Deview 2018"
+comments: true
 ---
 [발표자료](https://www.slideshare.net/deview/124-data-platform-mongodb)
 
