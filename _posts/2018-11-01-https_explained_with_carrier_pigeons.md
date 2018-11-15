@@ -3,6 +3,7 @@ layout: post
 title:  "배달하는 비둘기로 설명하는 HTTPS"
 author: Aria
 category: "Network"
+comments: true
 ---
 
 ![비둘기](https://cdn-images-1.medium.com/max/1600/1*vHF6NNdZX9ziiW_uRYzvAA.png)
