@@ -57,6 +57,7 @@ comments: true
    파일 내에 변경되어야 할 설정들은 아래와 같다.
 
    - this.page.url = "\{\{ site.url \}\}\{\{ page.url \}\}"로 수정
+	- 이 때, `_config.yml` 에서 불러오는 site.url이 서빙하는 도메인과 맞지 않으면 배포 후, localhost:4000으로 리다이렉션 되니 주의!
    - this.page.identifier = "\{\{ page.title \}\}"로 수정
    - this.src = { 본인의 disqus 도메인 }로 수정
 
