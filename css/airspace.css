@@ -216,8 +216,11 @@ progress::-webkit-progress-bar {
 #intro {
   padding: 100px 0;
 }
+#intro .block h1 {
+  padding-top: 20px;
+}
 #intro .block h2 {
-  padding-top: 35px;
+  padding-top: 15px;
   line-height: 27px;
   /* margin: 0; */
 }
@@ -887,17 +890,27 @@ progress::-webkit-progress-bar {
 }
 .post .content h1::before {
   color: #ddd;
-  content: "#";
+  content: "# ";
   display: inline;
-  margin-right: 5px;
-
+  padding-left: -30px;
+  padding-right: 10px;
+  font-weight: 400;
 }
 .post .content h2::before {
   color: #ddd;
-  content: "##";
+  content: "## ";
   display: inline;
-  margin-right: 5px;
-
+  padding-left: -40px;
+  padding-right: 10px;
+  font-weight: 300;
+}
+.post .content h3::before {
+  color: #ddd;
+  content: "###";
+  display: inline;
+  padding-left: -50px;
+  padding-right: 10px;
+  font-weight: 200;
 }
 @media only screen and (max-device-width: 640px) {
   .post .content h1::before {
