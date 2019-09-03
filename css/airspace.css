@@ -309,7 +309,7 @@ progress::-webkit-progress-bar {
 /*--
 	Feature Start
 --*/
-#feature {
+.feature {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
@@ -331,16 +331,16 @@ progress::-webkit-progress-bar {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature h2 {
+.feature h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature p {
+.feature p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+.feature .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
