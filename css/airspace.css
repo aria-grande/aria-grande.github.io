@@ -202,7 +202,7 @@ progress::-webkit-progress-bar {
   letter-spacing: 3px;
 }
 .bg-index {
-  background: url("/img/morocco-friends.jpg") no-repeat;
+  background: url("/img/gardeners.jpeg") no-repeat;
   background-position: 10% 0%;
 }
 @media only screen and (max-device-width: 640px) {
